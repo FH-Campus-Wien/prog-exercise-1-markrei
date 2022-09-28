@@ -59,10 +59,13 @@ public class App {
         System.out.println("Before Swap:");
         Scanner scanner = new Scanner(System.in);
 
+        System.out.print("x: ");
         x = scanner.nextInt();
+
+        System.out.print("y:");
         y = scanner.nextInt();
 
-        System.out.println("x: y: After Swap:");
+        System.out.println("After Swap:");
 
         //Swap
         x = x - y;
@@ -78,8 +81,9 @@ public class App {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("n1: ");
-        System.out.print("n2: ");
         int n1 = scanner.nextInt();
+
+        System.out.print("n2: ");
         int n2 = scanner.nextInt();
 
         if (n1 > n2){
