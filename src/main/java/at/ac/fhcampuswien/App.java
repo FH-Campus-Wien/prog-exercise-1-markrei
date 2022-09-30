@@ -33,9 +33,8 @@ public class App {
         float f2 = 5.5f;
         double d = 8.88e1;
         double d2 = 99.9;
-        int sum;
 
-        sum = (int) (s + c + i + l + f + f2 + d + d2);
+        int sum = s + (int) c + i + (int) l + (int) f + (int) f2 + (int) d + (int) d2;
 
         System.out.println(sum);
 
@@ -62,7 +61,7 @@ public class App {
         System.out.print("x: ");
         x = scanner.nextInt();
 
-        System.out.print("y:");
+        System.out.print("y: ");
         y = scanner.nextInt();
 
         System.out.println("After Swap:");
